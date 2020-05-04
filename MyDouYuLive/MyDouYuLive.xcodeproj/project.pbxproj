@@ -26,6 +26,7 @@
 		338CC8A1245FABA200AF3AB1 /* SJBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC897245FABA200AF3AB1 /* SJBaseView.swift */; };
 		338CC8A4245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC8A3245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift */; };
 		338CC8A6245FBC4500AF3AB1 /* SJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */; };
+		378E8ACB80C554F3A55B2155 /* Pods_MyDouYuLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06D710C76E05E239527CF50 /* Pods_MyDouYuLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264A493CBA6D412B30C0D580 /* Pods-MyDouYuLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDouYuLive.debug.xcconfig"; path = "Target Support Files/Pods-MyDouYuLive/Pods-MyDouYuLive.debug.xcconfig"; sourceTree = "<group>"; };
 		338CC827245C3A3A00AF3AB1 /* MyDouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338CC82A245C3A3A00AF3AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338CC82C245C3A3A00AF3AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,8 @@
 		338CC897245FABA200AF3AB1 /* SJBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJBaseView.swift; sourceTree = "<group>"; };
 		338CC8A3245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJPageTitleView.swift; sourceTree = "<group>"; };
+		D83768DFCAC7399A611E4E1D /* Pods-MyDouYuLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDouYuLive.release.xcconfig"; path = "Target Support Files/Pods-MyDouYuLive/Pods-MyDouYuLive.release.xcconfig"; sourceTree = "<group>"; };
+		F06D710C76E05E239527CF50 /* Pods_MyDouYuLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyDouYuLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378E8ACB80C554F3A55B2155 /* Pods_MyDouYuLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +110,8 @@
 				338CC840245C3A3C00AF3AB1 /* MyDouYuLiveTests */,
 				338CC84B245C3A3C00AF3AB1 /* MyDouYuLiveUITests */,
 				338CC828245C3A3A00AF3AB1 /* Products */,
+				BBD162E13C0ECA54FC2EE63D /* Pods */,
+				457FFD60E436451A80D9901B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -337,6 +344,24 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		457FFD60E436451A80D9901B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F06D710C76E05E239527CF50 /* Pods_MyDouYuLive.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBD162E13C0ECA54FC2EE63D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				264A493CBA6D412B30C0D580 /* Pods-MyDouYuLive.debug.xcconfig */,
+				D83768DFCAC7399A611E4E1D /* Pods-MyDouYuLive.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -344,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 338CC851245C3A3C00AF3AB1 /* Build configuration list for PBXNativeTarget "MyDouYuLive" */;
 			buildPhases = (
+				A0AC06FC0055EC1038124009 /* [CP] Check Pods Manifest.lock */,
 				338CC823245C3A3A00AF3AB1 /* Sources */,
 				338CC824245C3A3A00AF3AB1 /* Frameworks */,
 				338CC825245C3A3A00AF3AB1 /* Resources */,
+				7870217F9B0DF049F7A607E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -463,6 +490,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7870217F9B0DF049F7A607E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDouYuLive/Pods-MyDouYuLive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyDouYuLive/Pods-MyDouYuLive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyDouYuLive/Pods-MyDouYuLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0AC06FC0055EC1038124009 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyDouYuLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		338CC823245C3A3A00AF3AB1 /* Sources */ = {
@@ -653,6 +722,7 @@
 		};
 		338CC852245C3A3C00AF3AB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 264A493CBA6D412B30C0D580 /* Pods-MyDouYuLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -672,6 +742,7 @@
 		};
 		338CC853245C3A3C00AF3AB1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83768DFCAC7399A611E4E1D /* Pods-MyDouYuLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
