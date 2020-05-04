@@ -14,6 +14,18 @@
 		338CC837245C3A3C00AF3AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338CC835245C3A3C00AF3AB1 /* LaunchScreen.storyboard */; };
 		338CC842245C3A3C00AF3AB1 /* MyDouYuLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC841245C3A3C00AF3AB1 /* MyDouYuLiveTests.swift */; };
 		338CC84D245C3A3C00AF3AB1 /* MyDouYuLiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC84C245C3A3C00AF3AB1 /* MyDouYuLiveUITests.swift */; };
+		338CC898245FABA200AF3AB1 /* SJFollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC87E245FABA200AF3AB1 /* SJFollowVC.swift */; };
+		338CC899245FABA200AF3AB1 /* SJHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC883245FABA200AF3AB1 /* SJHomeVC.swift */; };
+		338CC89A245FABA200AF3AB1 /* SJColorTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC885245FABA200AF3AB1 /* SJColorTools.swift */; };
+		338CC89B245FABA200AF3AB1 /* SJCommen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC886245FABA200AF3AB1 /* SJCommen.swift */; };
+		338CC89C245FABA200AF3AB1 /* SJMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC888245FABA200AF3AB1 /* SJMineVC.swift */; };
+		338CC89D245FABA200AF3AB1 /* SJLiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC890245FABA200AF3AB1 /* SJLiveVC.swift */; };
+		338CC89E245FABA200AF3AB1 /* SJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC893245FABA200AF3AB1 /* SJNavigationController.swift */; };
+		338CC89F245FABA200AF3AB1 /* SJBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC894245FABA200AF3AB1 /* SJBaseVC.swift */; };
+		338CC8A0245FABA200AF3AB1 /* SJTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC895245FABA200AF3AB1 /* SJTabBarController.swift */; };
+		338CC8A1245FABA200AF3AB1 /* SJBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC897245FABA200AF3AB1 /* SJBaseView.swift */; };
+		338CC8A4245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC8A3245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift */; };
+		338CC8A6245FBC4500AF3AB1 /* SJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		338CC848245C3A3C00AF3AB1 /* MyDouYuLiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDouYuLiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338CC84C245C3A3C00AF3AB1 /* MyDouYuLiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDouYuLiveUITests.swift; sourceTree = "<group>"; };
 		338CC84E245C3A3C00AF3AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		338CC87E245FABA200AF3AB1 /* SJFollowVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJFollowVC.swift; sourceTree = "<group>"; };
+		338CC883245FABA200AF3AB1 /* SJHomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJHomeVC.swift; sourceTree = "<group>"; };
+		338CC885245FABA200AF3AB1 /* SJColorTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJColorTools.swift; sourceTree = "<group>"; };
+		338CC886245FABA200AF3AB1 /* SJCommen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJCommen.swift; sourceTree = "<group>"; };
+		338CC888245FABA200AF3AB1 /* SJMineVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJMineVC.swift; sourceTree = "<group>"; };
+		338CC890245FABA200AF3AB1 /* SJLiveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJLiveVC.swift; sourceTree = "<group>"; };
+		338CC893245FABA200AF3AB1 /* SJNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJNavigationController.swift; sourceTree = "<group>"; };
+		338CC894245FABA200AF3AB1 /* SJBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJBaseVC.swift; sourceTree = "<group>"; };
+		338CC895245FABA200AF3AB1 /* SJTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJTabBarController.swift; sourceTree = "<group>"; };
+		338CC897245FABA200AF3AB1 /* SJBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJBaseView.swift; sourceTree = "<group>"; };
+		338CC8A3245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJPageTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +121,7 @@
 		338CC829245C3A3A00AF3AB1 /* MyDouYuLive */ = {
 			isa = PBXGroup;
 			children = (
-				338CC85A245C402F00AF3AB1 /* Classes */,
+				338CC879245FABA200AF3AB1 /* Classes */,
 				338CC82A245C3A3A00AF3AB1 /* AppDelegate.swift */,
 				338CC82C245C3A3A00AF3AB1 /* SceneDelegate.swift */,
 				338CC830245C3A3A00AF3AB1 /* Main.storyboard */,
@@ -126,59 +150,191 @@
 			path = MyDouYuLiveUITests;
 			sourceTree = "<group>";
 		};
-		338CC85A245C402F00AF3AB1 /* Classes */ = {
+		338CC879245FABA200AF3AB1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				338CC860245C402F00AF3AB1 /* Main */,
-				338CC85B245C402F00AF3AB1 /* Home */,
-				338CC85E245C402F00AF3AB1 /* Live */,
-				338CC85D245C402F00AF3AB1 /* Follow */,
-				338CC85F245C402F00AF3AB1 /* Mine */,
-				338CC85C245C402F00AF3AB1 /* Tools */,
+				338CC891245FABA200AF3AB1 /* Main */,
+				338CC87F245FABA200AF3AB1 /* Home(首页) */,
+				338CC88C245FABA200AF3AB1 /* Live(直播) */,
+				338CC87A245FABA200AF3AB1 /* Follow(关注) */,
+				338CC887245FABA200AF3AB1 /* Mine(我的) */,
+				338CC884245FABA200AF3AB1 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		338CC85B245C402F00AF3AB1 /* Home */ = {
+		338CC87A245FABA200AF3AB1 /* Follow(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				338CC87B245FABA200AF3AB1 /* Controller */,
+				338CC87C245FABA200AF3AB1 /* Model */,
+				338CC87D245FABA200AF3AB1 /* View */,
+				338CC87E245FABA200AF3AB1 /* SJFollowVC.swift */,
+			);
+			path = "Follow(关注)";
+			sourceTree = "<group>";
+		};
+		338CC87B245FABA200AF3AB1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Home;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		338CC85C245C402F00AF3AB1 /* Tools */ = {
+		338CC87C245FABA200AF3AB1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		338CC87D245FABA200AF3AB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		338CC87F245FABA200AF3AB1 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				338CC880245FABA200AF3AB1 /* Controller */,
+				338CC881245FABA200AF3AB1 /* Model */,
+				338CC882245FABA200AF3AB1 /* View */,
+				338CC883245FABA200AF3AB1 /* SJHomeVC.swift */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		338CC880245FABA200AF3AB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		338CC881245FABA200AF3AB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		338CC882245FABA200AF3AB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		338CC884245FABA200AF3AB1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				338CC8A2245FAE7C00AF3AB1 /* Extension */,
+				338CC885245FABA200AF3AB1 /* SJColorTools.swift */,
+				338CC886245FABA200AF3AB1 /* SJCommen.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		338CC85D245C402F00AF3AB1 /* Follow */ = {
+		338CC887245FABA200AF3AB1 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				338CC889245FABA200AF3AB1 /* Controller */,
+				338CC88A245FABA200AF3AB1 /* Model */,
+				338CC88B245FABA200AF3AB1 /* View */,
+				338CC888245FABA200AF3AB1 /* SJMineVC.swift */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		338CC889245FABA200AF3AB1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Follow;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		338CC85E245C402F00AF3AB1 /* Live */ = {
+		338CC88A245FABA200AF3AB1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Live;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		338CC85F245C402F00AF3AB1 /* Mine */ = {
+		338CC88B245FABA200AF3AB1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Mine;
+			path = View;
 			sourceTree = "<group>";
 		};
-		338CC860245C402F00AF3AB1 /* Main */ = {
+		338CC88C245FABA200AF3AB1 /* Live(直播) */ = {
 			isa = PBXGroup;
 			children = (
+				338CC88D245FABA200AF3AB1 /* Controller */,
+				338CC88E245FABA200AF3AB1 /* Model */,
+				338CC88F245FABA200AF3AB1 /* View */,
+				338CC890245FABA200AF3AB1 /* SJLiveVC.swift */,
+			);
+			path = "Live(直播)";
+			sourceTree = "<group>";
+		};
+		338CC88D245FABA200AF3AB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		338CC88E245FABA200AF3AB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		338CC88F245FABA200AF3AB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		338CC891245FABA200AF3AB1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				338CC892245FABA200AF3AB1 /* Controller */,
+				338CC896245FABA200AF3AB1 /* View */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		338CC892245FABA200AF3AB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				338CC893245FABA200AF3AB1 /* SJNavigationController.swift */,
+				338CC894245FABA200AF3AB1 /* SJBaseVC.swift */,
+				338CC895245FABA200AF3AB1 /* SJTabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		338CC896245FABA200AF3AB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				338CC897245FABA200AF3AB1 /* SJBaseView.swift */,
+				338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		338CC8A2245FAE7C00AF3AB1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				338CC8A3245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +399,7 @@
 		338CC81F245C3A3A00AF3AB1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SJ;
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "song jian";
@@ -312,8 +469,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338CC89E245FABA200AF3AB1 /* SJNavigationController.swift in Sources */,
+				338CC8A4245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift in Sources */,
+				338CC899245FABA200AF3AB1 /* SJHomeVC.swift in Sources */,
+				338CC8A6245FBC4500AF3AB1 /* SJPageTitleView.swift in Sources */,
+				338CC8A0245FABA200AF3AB1 /* SJTabBarController.swift in Sources */,
+				338CC89A245FABA200AF3AB1 /* SJColorTools.swift in Sources */,
 				338CC82B245C3A3A00AF3AB1 /* AppDelegate.swift in Sources */,
+				338CC89B245FABA200AF3AB1 /* SJCommen.swift in Sources */,
+				338CC8A1245FABA200AF3AB1 /* SJBaseView.swift in Sources */,
+				338CC898245FABA200AF3AB1 /* SJFollowVC.swift in Sources */,
 				338CC82D245C3A3A00AF3AB1 /* SceneDelegate.swift in Sources */,
+				338CC89C245FABA200AF3AB1 /* SJMineVC.swift in Sources */,
+				338CC89F245FABA200AF3AB1 /* SJBaseVC.swift in Sources */,
+				338CC89D245FABA200AF3AB1 /* SJLiveVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
