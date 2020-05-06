@@ -30,6 +30,10 @@ class SJBaseVC: UIViewController {
 //        automaticallyAdjustsScrollViewInsets = false
     }
     
+    deinit {
+        print("\(Self.self)销毁")
+    }
+    
 
     /*
     // MARK: - Navigation
