@@ -24,6 +24,7 @@ class SJHomeVC: SJBaseVC {
         let titles:[String] = ["推荐", "游戏", "娱乐", "趣玩"]
         let homePageTitleView: SJPageTitleView = SJPageTitleView(frame: titleViewFrame, titles: titles)
         
+        // 3.设置代理
         homePageTitleView.delegate = self
         return homePageTitleView
     }()
@@ -43,6 +44,9 @@ class SJHomeVC: SJBaseVC {
             childVCs.append(childVC)
         }
         let homePageContentView = SJPageContentView(frame: contentViewFrame, childVCs: childVCs, parentVC: self)
+        
+        // 3.设置代理
+        homePageContentView.delegate = self
         return homePageContentView
     }()
     
@@ -92,8 +96,16 @@ extension SJHomeVC {
 
 // MARK:- 遵守SJPageTitleViewDelegate
 extension SJHomeVC: SJPageTitleViewDelegate {
-    /// 通过实现代理方法设置collectionView的滚动
+    
     func pageTitleView(titleView: SJPageTitleView, selectedIndex index: Int) {
         self.homePageContentView.setCollectionCellIndex(targetIndex: index)
+    }
+}
+
+// MARK:- 遵守SJPageContentViewDelegate
+extension SJHomeVC: SJPageContentViewDelegate {
+    
+    func pageContentView(pageContentView: SJPageContentView, sourceIndex: Int, targetIndex: Int, progress: CGFloat) {
+        self.homePageTitleView.setTitleViewWithProgress(sourceIndex: sourceIndex, targetIndex: targetIndex, progress: progress)
     }
 }
