@@ -138,6 +138,7 @@ extension SJPageTitleView {
                 UITapGestureRecognizer(target: self, action: #selector(self.titleLabelClick(tapGes:)))
             label.addGestureRecognizer(tapGes)
             
+            
         }
         
     }

@@ -34,12 +34,13 @@ class SJHomeVC: SJBaseVC {
     lazy var homePageContentView: SJPageContentView = { [weak self] in
         // 1.设置frame
         let contentViewY = kStatuHeight+kNavigationBarHeight+pageTitleViewH
-        let contentViewFrame = CGRect(x: 0, y: contentViewY, width: kScreenW, height: kScreenH-contentViewY)
+        let contentViewFrame = CGRect(x: 0, y: contentViewY, width: kScreenW, height: kScreenH-contentViewY-kTabBarHeight)
         
         // 2.添加自控制器
-        var childVCs = [UIViewController]()
-        for _ in 0..<4 {
-            let childVC = UIViewController()
+        var childVCs = [SJBaseVC]()
+        childVCs.append(SJRecommendVC())
+        for _ in 0..<3 {
+            let childVC = SJBaseVC()
             childVC.view.backgroundColor = colorWithRGBA(CGFloat(arc4random_uniform(255)), CGFloat(arc4random_uniform(255)), CGFloat(arc4random_uniform(255)), 1.0)
             childVCs.append(childVC)
         }
@@ -56,6 +57,7 @@ class SJHomeVC: SJBaseVC {
         setupUI()
         
     }
+    
     
 }
 

@@ -26,6 +26,9 @@
 		338CC8A1245FABA200AF3AB1 /* SJBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC897245FABA200AF3AB1 /* SJBaseView.swift */; };
 		338CC8A4245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC8A3245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift */; };
 		338CC8A6245FBC4500AF3AB1 /* SJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */; };
+		33B7CB37247BC90E0006CBB3 /* SJRecommendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7CB36247BC90D0006CBB3 /* SJRecommendVC.swift */; };
+		33B7CB39247BDF630006CBB3 /* SJBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7CB38247BDF630006CBB3 /* SJBaseCollectionViewCell.swift */; };
+		33B7CB3B247BE0A50006CBB3 /* SJRecommendNormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B7CB3A247BE0A50006CBB3 /* SJRecommendNormalCell.swift */; };
 		33E8AE0C2462568E0031E646 /* SJPageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E8AE0B2462568E0031E646 /* SJPageContentView.swift */; };
 		33E8AE0E2462709E0031E646 /* SJTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E8AE0D2462709E0031E646 /* SJTestVC.swift */; };
 		378E8ACB80C554F3A55B2155 /* Pods_MyDouYuLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F06D710C76E05E239527CF50 /* Pods_MyDouYuLive.framework */; };
@@ -75,6 +78,9 @@
 		338CC897245FABA200AF3AB1 /* SJBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJBaseView.swift; sourceTree = "<group>"; };
 		338CC8A3245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extension.swift"; sourceTree = "<group>"; };
 		338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJPageTitleView.swift; sourceTree = "<group>"; };
+		33B7CB36247BC90D0006CBB3 /* SJRecommendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJRecommendVC.swift; sourceTree = "<group>"; };
+		33B7CB38247BDF630006CBB3 /* SJBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		33B7CB3A247BE0A50006CBB3 /* SJRecommendNormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJRecommendNormalCell.swift; sourceTree = "<group>"; };
 		33E8AE0B2462568E0031E646 /* SJPageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJPageContentView.swift; sourceTree = "<group>"; };
 		33E8AE0D2462709E0031E646 /* SJTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJTestVC.swift; sourceTree = "<group>"; };
 		D83768DFCAC7399A611E4E1D /* Pods-MyDouYuLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDouYuLive.release.xcconfig"; path = "Target Support Files/Pods-MyDouYuLive/Pods-MyDouYuLive.release.xcconfig"; sourceTree = "<group>"; };
@@ -220,6 +226,7 @@
 		338CC880245FABA200AF3AB1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				33B7CB36247BC90D0006CBB3 /* SJRecommendVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -338,6 +345,8 @@
 				338CC897245FABA200AF3AB1 /* SJBaseView.swift */,
 				338CC8A5245FBC4500AF3AB1 /* SJPageTitleView.swift */,
 				33E8AE0B2462568E0031E646 /* SJPageContentView.swift */,
+				33B7CB38247BDF630006CBB3 /* SJBaseCollectionViewCell.swift */,
+				33B7CB3A247BE0A50006CBB3 /* SJRecommendNormalCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -546,6 +555,7 @@
 				338CC89E245FABA200AF3AB1 /* SJNavigationController.swift in Sources */,
 				338CC8A4245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift in Sources */,
 				338CC899245FABA200AF3AB1 /* SJHomeVC.swift in Sources */,
+				33B7CB37247BC90E0006CBB3 /* SJRecommendVC.swift in Sources */,
 				338CC8A6245FBC4500AF3AB1 /* SJPageTitleView.swift in Sources */,
 				338CC8A0245FABA200AF3AB1 /* SJTabBarController.swift in Sources */,
 				338CC89A245FABA200AF3AB1 /* SJColorTools.swift in Sources */,
@@ -554,8 +564,10 @@
 				338CC8A1245FABA200AF3AB1 /* SJBaseView.swift in Sources */,
 				338CC898245FABA200AF3AB1 /* SJFollowVC.swift in Sources */,
 				338CC82D245C3A3A00AF3AB1 /* SceneDelegate.swift in Sources */,
+				33B7CB39247BDF630006CBB3 /* SJBaseCollectionViewCell.swift in Sources */,
 				338CC89C245FABA200AF3AB1 /* SJMineVC.swift in Sources */,
 				33E8AE0E2462709E0031E646 /* SJTestVC.swift in Sources */,
+				33B7CB3B247BE0A50006CBB3 /* SJRecommendNormalCell.swift in Sources */,
 				338CC89F245FABA200AF3AB1 /* SJBaseVC.swift in Sources */,
 				338CC89D245FABA200AF3AB1 /* SJLiveVC.swift in Sources */,
 				33E8AE0C2462568E0031E646 /* SJPageContentView.swift in Sources */,
@@ -736,6 +748,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDE4TZ538Q;
 				INFOPLIST_FILE = MyDouYuLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -756,6 +769,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CDE4TZ538Q;
 				INFOPLIST_FILE = MyDouYuLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

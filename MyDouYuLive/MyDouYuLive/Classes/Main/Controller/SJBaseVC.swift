@@ -30,6 +30,10 @@ class SJBaseVC: UIViewController {
 //        automaticallyAdjustsScrollViewInsets = false
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print(self.view.bounds)
+    }
+    
     deinit {
         print("\(Self.self)销毁")
     }
