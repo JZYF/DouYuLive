@@ -16,7 +16,7 @@ private let kItemW: CGFloat = (kScreenW-3*kItemMargin) / 2
 /// item的高度
 private let kItemH: CGFloat = kItemW*3 / 4
 /// section的头部高度
-private let kSectionHeaderH: CGFloat = 50
+private let kSectionHeaderH: CGFloat = AdaptW(40)
 /// normal的item的id
 private let kNormalItemCellId: String = "SJRecommendCellId"
 private let kSectionHeaderId: String = "SJRecommendSectionHeaderId"
@@ -45,8 +45,8 @@ class SJRecommendVC: SJBaseVC {
         collectionView.dataSource = self
         
         // 4.注册cell和header
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: kNormalItemCellId)
-        collectionView.register(UICollectionReusableView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: kSectionHeaderId)
+        collectionView.register(SJRecommendNormalCell.self, forCellWithReuseIdentifier: kNormalItemCellId)
+        collectionView.register(SJCollectionHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: kSectionHeaderId)
         return collectionView
         
     }()
@@ -89,20 +89,17 @@ extension SJRecommendVC: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         // 1.取出section的header
         let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: kSectionHeaderId, for: indexPath)
-        headerView.backgroundColor = .green
+//        headerView.backgroundColor = .green
         return headerView
     }
     
     /// 设置cell
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         // 1.获取cell
-        let cell: UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: kNormalItemCellId, for: indexPath)
-        cell.backgroundColor = .red
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: kNormalItemCellId, for: indexPath)
+//        cell.backgroundColor = .red
         return cell
     }
     
-    
-    
-    
-    
+
 }
