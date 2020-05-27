@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33133136247E9EC900980618 /* SJNetWorkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33133135247E9EC900980618 /* SJNetWorkTools.swift */; };
 		338CC82B245C3A3A00AF3AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC82A245C3A3A00AF3AB1 /* AppDelegate.swift */; };
 		338CC82D245C3A3A00AF3AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CC82C245C3A3A00AF3AB1 /* SceneDelegate.swift */; };
 		338CC832245C3A3A00AF3AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 338CC830245C3A3A00AF3AB1 /* Main.storyboard */; };
@@ -55,6 +56,7 @@
 
 /* Begin PBXFileReference section */
 		264A493CBA6D412B30C0D580 /* Pods-MyDouYuLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDouYuLive.debug.xcconfig"; path = "Target Support Files/Pods-MyDouYuLive/Pods-MyDouYuLive.debug.xcconfig"; sourceTree = "<group>"; };
+		33133135247E9EC900980618 /* SJNetWorkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJNetWorkTools.swift; sourceTree = "<group>"; };
 		338CC827245C3A3A00AF3AB1 /* MyDouYuLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDouYuLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		338CC82A245C3A3A00AF3AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		338CC82C245C3A3A00AF3AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -255,6 +257,7 @@
 				338CC8A2245FAE7C00AF3AB1 /* Extension */,
 				338CC885245FABA200AF3AB1 /* SJColorTools.swift */,
 				338CC886245FABA200AF3AB1 /* SJCommen.swift */,
+				33133135247E9EC900980618 /* SJNetWorkTools.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -561,6 +564,7 @@
 				338CC89E245FABA200AF3AB1 /* SJNavigationController.swift in Sources */,
 				338CC8A4245FAEA900AF3AB1 /* UIBarButtonItem-Extension.swift in Sources */,
 				338CC899245FABA200AF3AB1 /* SJHomeVC.swift in Sources */,
+				33133136247E9EC900980618 /* SJNetWorkTools.swift in Sources */,
 				33B7CB37247BC90E0006CBB3 /* SJRecommendVC.swift in Sources */,
 				338CC8A6245FBC4500AF3AB1 /* SJPageTitleView.swift in Sources */,
 				338CC8A0245FABA200AF3AB1 /* SJTabBarController.swift in Sources */,

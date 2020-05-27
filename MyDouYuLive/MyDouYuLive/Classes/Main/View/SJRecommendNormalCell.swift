@@ -15,12 +15,16 @@ private let kLineH: CGFloat = 2
 
 class SJRecommendNormalCell: SJBaseCollectionViewCell {
     
+    /// cell中的图片
     var imgView: UIImageView?
+    /// 底部的小图标
     var bottomIconImgView: UIImageView?
+    /// 底部的直播间名称
     var bottomTitleLable: UILabel?
+    /// 图片上的水印名称
     var titleLable: UILabel?
+    /// 图片上显示的在线人数
     var onlineNumsOfPeopleBtn: UIButton?
-    var bottomLineView: UIView?
     
     
     override func initSubViews() {
@@ -32,7 +36,7 @@ class SJRecommendNormalCell: SJBaseCollectionViewCell {
 extension SJRecommendNormalCell {
     
     private func setupUI() {
-        imgView = UIImageView.createImgView(imgName: "live_cell_default_phone", contentMode: .scaleToFill, superView: self, constraintMakerClosure: { (make) in
+        imgView = UIImageView.createImgView(imgName: "Img_default", contentMode: .scaleToFill, superView: self, constraintMakerClosure: { (make) in
             make.left.right.top.equalToSuperview().inset(0)
             make.height.equalTo(self.bounds.height * 0.75)
         })

@@ -12,9 +12,14 @@ import UIKit
 private let kMargin: CGFloat = AdaptW(10)
 
 class SJCollectionHeaderView: UICollectionReusableView {
+    
+    /// 头部左侧小图标
     var headerIconImgView: UIImageView?
+    /// 分组的标题
     var headerTitleLable: UILabel?
+    /// 头部右侧的“更多”按钮
     var headerBtn: UIButton?
+    /// 分组上方的分隔线
     var bottomLineView: UIView?
     
     override init(frame: CGRect) {
